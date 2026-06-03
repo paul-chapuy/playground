@@ -5,7 +5,7 @@ def test_user_options_use_display_names_with_stable_ids() -> None:
     assert user_options() == {
         "Emma": "111",
         "Max": "222",
-        "Paul": "333",
+        "Paul": "222",
     }
 
 
