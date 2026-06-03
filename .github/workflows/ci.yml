@@ -36,7 +36,7 @@ jobs:
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
 
     steps:
-      - name: Pretend to deploy
+      - name: prentending i got deployed
         run: |
           echo "Checks passed."
           echo "This is where a real deployment command would run."
