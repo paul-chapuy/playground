@@ -1,0 +1,6 @@
+from typing import Final
+
+MIN_YEAR_FRACTION_FOR_CALIBRATION: Final[float] = 0.03
+MAX_YEAR_FRACTION_FOR_CALIBRATION: Final[float] = 2.5
+MAX_ATM_FWD_MONEYNESS: Final[float] = 0.05
+CALENDAR_DAYS_PER_YEAR: Final[float] = 365.0
